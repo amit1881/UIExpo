@@ -54,12 +54,12 @@ z-index:99;
 .page2_product_details
 {
 position:absolute;
-bottom:35%;
+bottom:1%;
 z-index:99;
 width:100%;
 color:#000000;
 padding-left:10px;
-font-size:16px;
+font-size:12px;
 }
 .page2_info_div
 {
