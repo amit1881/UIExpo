@@ -20,7 +20,7 @@
 			timing: 5000,
 			titles: 'top'
 		};
-		
+
 		base.options = $.extend({}, base.defaultOptions, options);
 
 		function supportsCSS(type) {
@@ -54,7 +54,7 @@
 				clearInterval(base.autoMode);
 				event.stopPropagation();
 			}
-			
+
 			base.$slideTitles.find('li').attr('class', '');
 
 			if (autoplay) {
@@ -351,7 +351,7 @@
 		base.init();
 
 	}
-	
+
 	$.fn.jFlex = function(options){
 		return this.each(function(){
 			(new jFlex(this, options));

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<title>Shopping Cart | Page 4</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CSS 3 -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+</head>
+<body class="home_page">
+	<div class="home_page_container">
+		<img class="img-responsive" src="images/page4.png" alt="">
+
+		<div class="page2_cart">
+      <img class="img-responsive" src="images/bag.png" alt="" onclick="show_cart();">
+      <span class="cart" onclick="show_cart();">0</span>
+    </div>
+		<div class="page2_left_arrow"><a href="home.htm"><img class="img-responsive" src="images/left_arrow.png" alt=""></a>
+    </div>
+		<div class="page2_product_details01">
+			Satin Bomber Jacket Grey<br/>
+			Price:$200<br/><br/>
+			<a href="page3.htm"><img src="images/more01.png" class="img-responsive" width="28px" alt=""/></a>
+		</div>
+		<div class="page2_info_div">
+			<span class="button"><img src="images/info.png" class="img-responsive" width="60px" alt=""/></span>
+			<div class="info_contain_div">
+			<span class="info_span">INFO.</span>
+			<!-- <span class="details_info">Fabric: 96% Polyuser 6% Elastane<br/>
+			Length: 54cm <br/>
+			Color: White<br/>
+			Element Details<br/>
+			Size: S M L<br/>
+			Brand: EKA</span> -->
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<!-- <script>
+$(document).ready(function(){
+    $(".button").click(function(){
+        $(".info_contain_div").slideToggle();
+    });
+});
+</script> -->
+<script>
+var count=0;
+function show_cart()
+{
+count++;
+$(".cart").html(count);
+setcookies
+}
+</script>
+</html>
